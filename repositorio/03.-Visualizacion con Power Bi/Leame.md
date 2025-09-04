@@ -1,14 +1,8 @@
-El texto que proporcionaste para tu README es un excelente punto de partida. Es claro y detalla las secciones principales del dashboard. Para mejorarlo, lo he reestructurado y expandido para hacerlo más atractivo, profesional y fácil de leer. He añadido una introducción más impactante y secciones con subtítulos para una mejor organización. Aquí está la versión mejorada:
-
----
-
 ## **Descripción General del Proyecto**
 
 Este proyecto presenta un **dashboard analítico** diseñado para ofrecer una **visión integral y descriptiva de una base de datos de 10,130 clientes**. El dashboard combina **indicadores demográficos y financieros** clave, permitiendo una comprensión profunda de la cartera de clientes. 
 
 Su diseño modular, que incorpora métricas agregadas, gráficos de barras y gráficos circulares, facilita la navegación y la interpretación de los datos. La paleta de colores distintiva, junto con una leyenda clara, **segmenta eficazmente a los clientes existentes de aquellos que han abandonado**, lo que ayuda a identificar patrones de comportamiento y a tomar decisiones estratégicas.
-
----
 
 ## **Componentes Principales del Dashboard**
 
@@ -30,8 +24,6 @@ El dashboard está organizado en secciones intuitivas para un análisis rápido 
 
 * **Distribución de Nivel de Ingresos**: Un gráfico circular que segmenta a los clientes en cinco rangos de ingresos, desde "Menos de USD 40,000" hasta "Más de USD 120,000".
 * **Cantidad por Categoría de Tarjeta**: Un gráfico de barras que visualiza la distribución de clientes entre las cuatro categorías de tarjeta: **Blue, Silver, Gold** y **Platinum**.
-
----
 
 ## **Modelado de Datos y Relaciones**
 
