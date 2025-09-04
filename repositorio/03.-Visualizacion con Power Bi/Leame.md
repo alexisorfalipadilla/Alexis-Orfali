@@ -32,3 +32,5 @@ La arquitectura del dashboard se basa en un diseño de tabla de hechos que garan
 * La **tabla de hechos** contiene un único registro por cliente, actuando como la fuente de datos principal para todas las métricas.
 * Las **dimensiones** asignadas incluyen atributos demográficos (género, estado civil, nivel educativo), atributos financieros (nivel de ingresos, promedio de crédito) y la segmentación del producto (categoría de tarjeta).
 * Se asegura la **integridad referencial** entre las métricas (conteo, promedios) y las dimensiones, lo que permite realizar filtrados cruzados de forma eficiente y sin duplicaciones, garantizando la fiabilidad de los análisis.
+
+<img width="1362" height="769" alt="image" src="https://github.com/user-attachments/assets/e3549299-d1a0-43ea-8480-e539b408bd3d" />
