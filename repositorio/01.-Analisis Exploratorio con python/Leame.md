@@ -70,3 +70,48 @@ El análisis contrasta la proporción de clientes existentes y abandonantes seg�
 | Platinum | 0,1 | 0,5 |
 
 Se observa que la categoría **Blue** predomina en ambos colectivos; sin embargo, los clientes con tarjetas **Silver**, **Gold** y **Platinum** presentan tasas de abandono proporcionalmente superiores a su participación en la cartera activa. Este comportamiento indica que, a pesar de su menor volumen, dichos segmentos muestran una mayor propensión al abandono, lo cual es especialmente importante dada su contribución al ingreso y la rentabilidad de la entidad.
+---
+### Conclusiones y Recomendaciones
+
+El conjunto de datos presenta un nivel de calidad adecuado, sin valores faltantes críticos y con una proporción limitada de datos atípicos. Sin embargo, las variables relacionadas con el crédito y las transacciones requieren transformaciones antes de ser utilizadas en modelos predictivos para evitar sesgos y mejorar la estabilidad.
+
+---
+
+#### Calidad de variables financieras
+
+Se identificaron valores extremos en **Credit_Limit**, **Total_Revolving_Bal** y **Total_Trans_Amt**. Se recomienda aplicar técnicas como la winsorización o el escalado robusto para mitigar la influencia de estos valores atípicos sin perder información relevante sobre los "súper usuarios".
+
+---
+
+#### Segmentación estratégica
+
+Las variables con mayor poder de discriminación para la segmentación son la antigüedad del cliente, el número de productos contratados y el volumen y monto de las transacciones. Configurar estos atributos en niveles (ej. por antigüedad: nuevos, intermedios, leales) facilitará el diseño de campañas de marketing y la asignación de recursos.
+
+---
+
+#### Medición de riesgo y compromiso
+
+El riesgo crediticio y el compromiso del cliente se capturan de manera más sólida combinando **Credit_Limit**, **Avg_Utilization_Ratio** y **Total_Revolving_Bal**. Se sugiere integrar estas variables en un índice compuesto que sirva como predictor en modelos de abandono y mora.
+
+---
+
+#### Depuración de variables redundantes
+
+Las probabilidades derivadas del clasificador **Naive Bayes (NBC_Prob_Attrition y NBC_Prob_NoAttrition)** muestran baja variabilidad y un sesgo marcado. Se recomienda excluirlas de la fase de modelado y, en su lugar, explorar otros métodos que aporten información diferenciada.
+
+---
+
+#### Umbral de retención
+
+La tasa global de abandono es del **16,1 %**. Cualquier iniciativa de retención debe demostrar una reducción significativa por debajo de este valor. Se sugiere implementar pruebas piloto A/B en segmentos de alto riesgo y medir el impacto antes de escalar las acciones.
+
+---
+
+#### Próximos pasos
+
+Para reforzar la estrategia, se proponen los siguientes pasos:
+
+* Construir un modelo predictivo de abandono, validado con validación cruzada y métricas de discriminación (ROC-AUC) y calibración.
+* Desarrollar un panel de control interactivo en Power BI para monitorear en tiempo real los indicadores de riesgo, retención y rentabilidad por segmento.
+* Probar campañas específicas (venta cruzada de productos y ofertas personalizadas de línea de crédito) en los segmentos identificados como “súper usuarios” para maximizar la rentabilidad.
+* Implementar análisis de sentimiento a partir de fuentes de retroalimentación del cliente (encuestas NPS, comentarios en canales digitales) para enriquecer el perfil de riesgo y compromiso.
