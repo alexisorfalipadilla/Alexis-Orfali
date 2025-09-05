@@ -35,4 +35,4 @@ La arquitectura del dashboard se basa en un diseño de tabla de hechos que garan
 
 <img width="1362" height="769" alt="image" src="https://github.com/user-attachments/assets/e3549299-d1a0-43ea-8480-e539b408bd3d" />
 
-¡Bienvenido al dashboard de análisis de clientes! Puedes acceder a la visualización interactiva en Power BI haciendo clic en el siguiente enlace: **[Dashboard de Clientes](https://app.powerbi.com/links/DQ2JGZj7GJ?ctid=49ec9f52-8e28-4b20-a441-92ebf26c544c&pbi_source=linkShare)**.
+¡Bienvenido al dashboard de análisis de clientes! Puedes acceder a la visualización interactiva en Power BI haciendo clic en el siguiente enlace: **[Dashboard de Clientes]([https://app.powerbi.com/links/DQ2JGZj7GJ?ctid=49ec9f52-8e28-4b20-a441-92ebf26c544c&pbi_source=linkShare](https://app.powerbi.com/view?r=eyJrIjoiZDMyNTQwNjAtNjQxMC00MWZiLWJiNmUtMzk3OWNhNGJiNDIyIiwidCI6IjQ5ZWM5ZjUyLThlMjgtNGIyMC1hNDQxLTkyZWJmMjZjNTQ0YyIsImMiOjR9))**.
