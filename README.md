@@ -1,6 +1,6 @@
 # Portafolio de Análisis de Datos: Sector de Tarjetas de Crédito 💳
 
-Este repositorio consolida cuatro proyectos de análisis de datos basados en datasets reales de **Kaggle**. Su propósito es demostrar un **flujo de trabajo completo** en el sector financiero, desde el análisis inicial de datos hasta la visualización final de resultados para la toma de decisiones estratégicas.
+Este repositorio consolida tres proyectos de análisis de datos basados en datasets reales de **Kaggle**. Su propósito es demostrar un **flujo de trabajo completo** en el sector financiero, desde el análisis inicial de datos hasta la visualización final de resultados para la toma de decisiones estratégicas.
 
 Cada proyecto se aloja en su propia carpeta, con un archivo `README.md` que detalla los **objetivos**, la **metodología** y los **resultados** obtenidos.
 
