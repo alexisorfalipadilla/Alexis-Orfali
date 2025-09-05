@@ -28,3 +28,19 @@ Se describe la relación entre pares de variables mediante técnicas estrictamen
 * **Cuando una variable es numérica y la otra categórica**, se calculan estadísticos de tendencia central (media, mediana) y de dispersión (desviación estándar, rango intercuartílico) por cada categoría, y se representan mediante diagramas de caja y gráficos de barras de medias.
 
 Este enfoque permite identificar patrones de comportamiento y diferencias entre segmentos de clientes sin recurrir a análisis de correlación ni a pruebas estadísticas de asociación.
+---
+### Hallazgos clave del análisis univariado
+
+A continuación se exponen los principales hallazgos derivados del examen individual de las variables demográficas y su vinculación con el comportamiento de los clientes:
+
+---
+
+#### Perfil demográfico y relación con el banco
+
+* **Edad**: La edad promedio de los clientes es de **46,82 años**, con una distribución prácticamente uniforme en todos los rangos etarios. Se recomienda segmentar la población para detectar diferencias de comportamiento.
+* **Número de dependientes**: El cliente promedio tiene **1,23 dependientes**. Para simplificar, se sugiere categorizar esta variable en niveles: 0, 1–2 y $\geq$ 3.
+* **Antigüedad con el banco**: La relación promedio con la entidad es de **36,03 meses**. Se propone clasificar la antigüedad en segmentos (nuevos, intermedios, leales) para optimizar las estrategias de retención.
+* **Productos contratados**: El número medio de productos por cliente es de **3,81** (IQR: 2–5). Se observa que los clientes con más de cinco productos tienen mayores tasas de retención. Esto sugiere priorizar campañas de *cross-selling* en segmentos con menor adopción de productos.
+* **Género**: La distribución por género es ligeramente mayoritaria en el segmento femenino (**52,9 %**) frente al masculino (**47,1 %**). Un análisis segmentado puede revelar preferencias diferenciales en productos y comportamientos de gasto.
+* **Estado civil**: El **46,3 %** de los clientes está casado y el **38,9 %** soltero. Para simplificar la categorización, se recomienda agrupar 'Divorciado' y 'No especificado' en la categoría 'Otros'.
+* **Nivel de ingresos**: El **35,2 %** de los clientes reporta ingresos anuales inferiores a $40 000, y el **9,1 %** no informa esta variable. Antes de usar los ingresos en modelos predictivos, debe evaluarse el posible sesgo de los datos faltantes y definir un método de imputación apropiado.
