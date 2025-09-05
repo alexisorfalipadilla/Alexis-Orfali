@@ -55,3 +55,18 @@ A continuación se exponen los principales hallazgos derivados del examen indivi
 * **Número de transacciones:** En promedio, el cliente realiza **64,84 transacciones al año**. Los segmentos con menos de 50 transacciones anuales muestran un mayor riesgo de abandono. Se recomienda establecer umbrales de alerta y desarrollar estrategias para reactivar a estos clientes.
 
 Este análisis financiero y transaccional ofrece una base sólida para segmentar a los clientes y diseñar acciones dirigidas a optimizar la rentabilidad, mitigar el riesgo y reducir el abandono.
+---
+Aquí tienes el texto en formato Markdown, incluyendo una tabla:
+
+### Análisis de relaciones clave
+
+El análisis contrasta la proporción de clientes existentes y abandonantes según la categoría de su tarjeta, con el fin de identificar segmentos con mayor riesgo de abandono.
+
+| Categoría de tarjeta | Clientes existentes (%) | Clientes abandonantes (%) |
+| :--- | :--- | :--- |
+| Blue | 94,2 | 88,6 |
+| Silver | 4,8 | 8,4 |
+| Gold | 0,9 | 2,5 |
+| Platinum | 0,1 | 0,5 |
+
+Se observa que la categoría **Blue** predomina en ambos colectivos; sin embargo, los clientes con tarjetas **Silver**, **Gold** y **Platinum** presentan tasas de abandono proporcionalmente superiores a su participación en la cartera activa. Este comportamiento indica que, a pesar de su menor volumen, dichos segmentos muestran una mayor propensión al abandono, lo cual es especialmente importante dada su contribución al ingreso y la rentabilidad de la entidad.
