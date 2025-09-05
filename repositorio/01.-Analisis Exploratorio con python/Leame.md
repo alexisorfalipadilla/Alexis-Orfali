@@ -44,3 +44,14 @@ A continuación se exponen los principales hallazgos derivados del examen indivi
 * **Género**: La distribución por género es ligeramente mayoritaria en el segmento femenino (**52,9 %**) frente al masculino (**47,1 %**). Un análisis segmentado puede revelar preferencias diferenciales en productos y comportamientos de gasto.
 * **Estado civil**: El **46,3 %** de los clientes está casado y el **38,9 %** soltero. Para simplificar la categorización, se recomienda agrupar 'Divorciado' y 'No especificado' en la categoría 'Otros'.
 * **Nivel de ingresos**: El **35,2 %** de los clientes reporta ingresos anuales inferiores a $40 000, y el **9,1 %** no informa esta variable. Antes de usar los ingresos en modelos predictivos, debe evaluarse el posible sesgo de los datos faltantes y definir un método de imputación apropiado.
+
+---
+### Comportamiento financiero y de transacciones
+
+* **Límite de crédito:** El límite promedio es de **$4.835,88**, con una alta dispersión y valores atípicos superiores a $10.000. Se recomienda segmentar a los clientes en niveles —bajo, medio, alto y premium— para personalizar ofertas y gestionar el riesgo.
+* **Saldo rotativo:** El saldo rotativo medio es de **$1.162,81**, con una proporción considerable de clientes que tienen saldos bajos o nulos. Para optimizar el análisis, se sugiere agrupar los saldos en cuartiles (Q1-Q4) e identificar segmentos con mayor potencial de crecimiento.
+* **Uso de crédito:** La utilización promedio del crédito es inferior al **20 %**, lo que indica un uso moderado de la línea disponible. Se propone clasificar esta ratio en categorías —bajo, medio y alto— para incorporarla en modelos de riesgo crediticio.
+* **Monto total de transacciones anual:** El monto promedio anual es de aproximadamente **$3.990**, con valores atípicos que superan los $5.800. La identificación de “súper usuarios” permite diseñar campañas de fidelización y maximizar la rentabilidad de los clientes más activos.
+* **Número de transacciones:** En promedio, el cliente realiza **64,84 transacciones al año**. Los segmentos con menos de 50 transacciones anuales muestran un mayor riesgo de abandono. Se recomienda establecer umbrales de alerta y desarrollar estrategias para reactivar a estos clientes.
+
+Este análisis financiero y transaccional ofrece una base sólida para segmentar a los clientes y diseñar acciones dirigidas a optimizar la rentabilidad, mitigar el riesgo y reducir el abandono.
