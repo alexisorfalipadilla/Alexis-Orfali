@@ -22,4 +22,9 @@ Se examina cada variable en forma independiente para caracterizar su distribuci�
 ---
 
 ### **3. Análisis bivariado**
-Se exploran las relaciones entre pares de variables para descubrir patrones y dependencias de interés para el negocio. Para pares de variables numéricas, se calcula la **matriz de correlación de Pearson** y se visualiza mediante un mapa de calor; se complementa con diagramas de dispersión que permiten detectar tendencias y agrupamientos. Cuando ambas variables son categóricas, se elaboran tablas de contingencia y se aplica la **prueba de chi cuadrado de independencia** para evaluar la significancia de la asociación. Se dedica especial atención a las interacciones con impacto directo en la retención de clientes, como la relación entre tipo de tarjeta y tasa de abandono, y entre nivel de ingresos y volumen de transacciones mensuales.
+Se describe la relación entre pares de variables mediante técnicas estrictamente descriptivas.
+
+* **Para dos variables cualitativas**, se construyen tablas de contingencia que muestran frecuencias absolutas y relativas, acompañadas de gráficos de barras agrupadas para facilitar la comparación.
+* **Cuando una variable es numérica y la otra categórica**, se calculan estadísticos de tendencia central (media, mediana) y de dispersión (desviación estándar, rango intercuartílico) por cada categoría, y se representan mediante diagramas de caja y gráficos de barras de medias.
+
+Este enfoque permite identificar patrones de comportamiento y diferencias entre segmentos de clientes sin recurrir a análisis de correlación ni a pruebas estadísticas de asociación.
